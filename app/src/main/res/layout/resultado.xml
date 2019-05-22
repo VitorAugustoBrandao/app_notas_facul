@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <View
+            android:id="@+id/wyden_foote"
+            android:layout_width="294dp"
+            android:layout_height="87dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/wyden_footer"
+            tools:layout_editor_absoluteY="41dp" tools:layout_editor_absoluteX="58dp"
+            tools:ignore="MissingConstraints" android:layout_marginLeft="34dp" android:layout_marginTop="29dp"/>
+
+    <TextView
+            android:id="@+id/nota_b1"
+            android:layout_width="273dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="18sp"
+            android:textColor="#252525"
+            android:gravity="center_horizontal|center_vertical"
+            tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="256dp"
+            tools:layout_editor_absoluteX="67dp" android:layout_marginLeft="48dp" android:layout_marginTop="6dp"
+            android:layout_below="@+id/bimestre_1" android:layout_alignRight="@+id/bimestre_1"
+            android:layout_marginRight="4dp" android:layout_marginEnd="4dp"
+            android:layout_alignEnd="@+id/bimestre_1" android:layout_alignParentStart="true"
+            android:layout_marginStart="48dp"/>
+
+    <TextView
+            android:id="@+id/bimestre_1"
+            android:layout_width="277dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/bimestre_1"
+            android:textAppearance="@style/mensal_1"
+            android:gravity="center_horizontal|center_vertical"
+            tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="220dp"
+            tools:layout_editor_absoluteX="67dp" android:layout_marginLeft="48dp" android:layout_marginTop="142dp"/>
+    <TextView
+            android:id="@+id/bimestre_2"
+            android:layout_width="277dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/bimestre_2"
+            android:textAppearance="@style/mensal_1"
+            android:gravity="center_horizontal|center_vertical"
+            tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="337dp"
+            tools:layout_editor_absoluteX="67dp" android:layout_marginLeft="46dp" android:layout_marginTop="245dp"/>
+
+    <TextView
+            android:id="@+id/nota_b2"
+            android:layout_width="277dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="18sp"
+            android:textColor="#252525"
+            android:gravity="center_horizontal|center_vertical"
+            tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="373dp"
+            tools:layout_editor_absoluteX="67dp" android:layout_marginTop="7dp"
+            android:layout_below="@+id/bimestre_2" android:layout_alignRight="@+id/bimestre_2"
+            android:layout_marginRight="-2dp" android:layout_marginEnd="-2dp"
+            android:layout_alignEnd="@+id/bimestre_2" android:layout_marginLeft="48dp"
+            android:layout_alignParentStart="true" android:layout_marginStart="48dp"/>
+
+    <TextView
+            android:id="@+id/nota_final"
+            android:layout_width="277dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/nota_final"
+            android:textSize="18sp"
+            android:textColor="#757575"
+            android:gravity="center_horizontal|center_vertical"
+            tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="502dp"
+            tools:layout_editor_absoluteX="67dp" android:layout_marginLeft="48dp" android:layout_marginTop="345dp"/>
+
+    <TextView
+            android:id="@+id/nota_final_"
+            android:layout_width="277dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="18sp"
+            android:textColor="#252525"
+            android:gravity="center_horizontal|center_vertical"
+            tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="538dp"
+            tools:layout_editor_absoluteX="67dp" android:layout_alignParentStart="true" android:layout_marginLeft="49dp"
+            android:layout_marginStart="49dp" android:layout_marginTop="6dp" android:layout_below="@+id/nota_final"
+            android:layout_alignRight="@+id/nota_final" android:layout_marginRight="-1dp"
+            android:layout_marginEnd="-1dp" android:layout_alignEnd="@+id/nota_final"/>
+</RelativeLayout>

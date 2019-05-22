@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <View
+            android:id="@+id/wyden_foote"
+            android:layout_width="224dp"
+            android:layout_height="37dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/wyden_footer"
+            tools:layout_editor_absoluteY="16dp" tools:layout_editor_absoluteX="33dp"
+            tools:ignore="MissingConstraints" android:layout_marginLeft="73dp" android:layout_marginTop="10dp"/>
+
+    <EditText
+            android:id="@+id/m1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            tools:layout_editor_absoluteY="165dp" tools:layout_editor_absoluteX="42dp"
+            android:height="40.5dp" android:width="277dp" tools:ignore="MissingConstraints"
+            android:layout_marginTop="-2dp" android:layout_below="@+id/mensal_1"
+            android:layout_alignRight="@+id/mensal_1" android:layout_marginRight="0dp" android:layout_marginEnd="0dp"
+            android:layout_alignEnd="@+id/mensal_1" android:text="0"/>
+
+    <TextView
+            android:id="@+id/mensal_1"
+            android:layout_width="277dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/mensal_1"
+            android:textAppearance="@style/mensal_1"
+            android:gravity="center_vertical"
+            tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="129dp"
+            tools:layout_editor_absoluteX="42dp" android:layout_marginLeft="41dp" android:layout_marginTop="60dp"/>
+
+    <EditText
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            tools:layout_editor_absoluteY="269dp" tools:layout_editor_absoluteX="42dp"
+            android:height="40.5dp" android:width="277dp" tools:ignore="MissingConstraints"
+            android:layout_alignRight="@+id/mensal_" android:layout_marginRight="0dp" android:layout_marginEnd="0dp"
+            android:layout_alignEnd="@+id/mensal_" android:layout_marginTop="-1dp" android:layout_below="@+id/mensal_"
+            android:text="0"/>
+    <TextView
+            android:id="@+id/mensal_"
+            android:layout_width="277dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/bimestral_1"
+            android:textAppearance="@style/mensal_1"
+            android:gravity="center_vertical"
+            tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="233dp"
+            tools:layout_editor_absoluteX="42dp" android:layout_marginLeft="41dp" android:layout_marginTop="152dp"/>
+
+    <EditText
+            android:id="@+id/m2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            tools:layout_editor_absoluteY="374dp" tools:layout_editor_absoluteX="42dp"
+            android:height="40.5dp" android:width="277dp" tools:ignore="MissingConstraints"
+            android:layout_marginTop="0dp" android:layout_below="@+id/mensal_2"
+            android:layout_alignRight="@+id/mensal_2" android:layout_marginRight="0dp" android:layout_marginEnd="0dp"
+            android:layout_alignEnd="@+id/mensal_2" android:text="0"/>
+    <TextView
+            android:id="@+id/mensal_2"
+            android:layout_width="277dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/mensal_2"
+            android:textAppearance="@style/mensal_1"
+            android:gravity="center_vertical"
+            tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="334dp"
+            tools:layout_editor_absoluteX="42dp" android:layout_marginLeft="39dp" android:layout_marginTop="247dp"/>
+
+    <EditText
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            tools:layout_editor_absoluteY="474dp" tools:layout_editor_absoluteX="42dp"
+            android:height="40.5dp" android:width="277dp" tools:ignore="MissingConstraints"
+            android:layout_marginTop="0dp" android:layout_below="@+id/bimestral_2"
+            android:layout_alignRight="@+id/bimestral_2" android:layout_marginRight="-2dp"
+            android:layout_marginEnd="-2dp" android:layout_alignEnd="@+id/bimestral_2" android:text="0"/>
+    <TextView
+            android:id="@+id/bimestral_2"
+            android:layout_width="277dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/bimestral_2"
+            android:textAppearance="@style/mensal_1"
+            android:gravity="center_vertical"
+            tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="434dp"
+            tools:layout_editor_absoluteX="42dp" android:layout_marginLeft="39dp" android:layout_marginTop="340dp"/>
+
+    <View
+            android:id="@+id/rectangle"
+            android:layout_width="277dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:background="#558FD3"
+            android:layout_alignParentTop="true"
+            tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="625dp"
+            tools:layout_editor_absoluteX="67dp" android:layout_marginLeft="40dp" android:layout_marginTop="438dp"/>
+
+    <TextView
+            android:id="@+id/calcular"
+            android:layout_width="294dp"
+            android:layout_height="55dp"
+            android:text="@string/calcular"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="569dp"
+            tools:layout_editor_absoluteX="33dp" android:layout_marginBottom="0dp"
+            android:layout_alignBottom="@+id/rectangle" android:layout_alignRight="@+id/rectangle"
+            android:layout_centerVertical="true" android:layout_marginRight="-12dp" android:layout_marginEnd="-12dp"
+            android:layout_alignEnd="@+id/rectangle"/>
+</RelativeLayout>

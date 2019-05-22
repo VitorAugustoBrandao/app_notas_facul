@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Notas Faculdade</string>
+    <string name="unimetrocamp">UNIMETROCAMP WYDEN</string>
+    <string name="calcule_sua">Calcule suas notas</string>
+    <string name="mensal_1">Mensal 1</string>
+    <string name="mensal_2">Mensal 2</string>
+    <string name="bimestral_1">Bimestral 1</string>
+    <string name="bimestral_2">Bimestral 2</string>
+    <string name="calcular">Calcular</string>
+    <string name="bimestre_1">Bimestre 1</string>
+    <string name="bimestre_2">Bimestre 2</string>
+    <string name="nota_final">Nota Final</string>
+</resources>
